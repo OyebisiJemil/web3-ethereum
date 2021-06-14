@@ -8,3 +8,6 @@ web3.eth.getGasPrice().then((result) => {
 
 //get the hash value of a string with sha3
 console.log(web3.utils.sha3('Jemil'))
+
+//get the hash value of a string with sha3
+console.log(web3.utils.keccak256('Jemil'))
